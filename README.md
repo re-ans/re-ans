@@ -1,4 +1,6 @@
-<h1 align="center">Hi 👋, I'm An Ngo</h1>
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2000&pause=1500&color=5E96F1&center=true&vCenter=true&repeat=true&width=435&lines=Hi+%F0%9F%91%8B%2C+I'm+An+Ngo" alt="Typing SVG" />
+</h1>
 <h3 align="center">A Dedicated Software Developer</h3>
 
 <p align="center">
