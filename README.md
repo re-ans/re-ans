@@ -54,7 +54,7 @@
 
 <div align="center">
 
-🎮 Gaming &nbsp; • &nbsp; 🧑‍🍳 Culinary &nbsp; • &nbsp; 🎣 Fishing &nbsp; • &nbsp; 📚 Reading  
+🎮 Gaming &nbsp; • &nbsp; 🧑‍🍳 Culinary &nbsp; • &nbsp; 🎣 Fishing &nbsp;
 
 </div>
 
