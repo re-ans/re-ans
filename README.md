@@ -65,10 +65,8 @@
 ### 📊 GitHub Stats
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=re-ans&show_icons=true&theme=dark&include_all_commits=true&count_private=true&title_color=5e96f1&icon_color=5e96f1&text_color=ffffff&bg_color=191919" alt="An's GitHub Stats" width="48%"/>  
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=re-ans&layout=compact&theme=dark&title_color=5e96f1&text_color=ffffff&bg_color=191919" alt="An's Top Languages" width="48%"/>
-
+  <img src="https://github-readme-stats.vercel.app/api?username=re-ans&show_icons=true&theme=dark&include_all_commits=true&count_private=true&title_color=5e96f1&icon_color=5e96f1&text_color=ffffff&bg_color=191919" alt="An's GitHub Stats" width="48%"/>  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=re-ans&layout=compact&theme=dark&title_color=5e96f1&text_color=ffffff&bg_color=191919" alt="An's Top Languages" width="48%"/>
 </div>
 
 ---
