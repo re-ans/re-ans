@@ -11,10 +11,10 @@
 
 ### 🚀 About Me
 
+- 🎓 CS student at **The University of Texas at Austin**  
 - 💻 Currently working on multiple software projects  
 - 🌱 Passionate about full-stack development  
-- 📱 Diving deep into Go and mobile development  
-- 🎓 CS student at **The University of Texas at Austin**  
+
 
 ---
 
