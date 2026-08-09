@@ -1,0 +1,267 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10.5pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape An Ngo} \\ \vspace{1pt}
+    \small \raisebox{-0.1\height} 346-276-7297\quad\textbar\quad
+    \href{mailto:anngo@utexas.edu}{\underline{anngo@utexas.edu}} \quad\textbar\quad
+    \href{https://www.linkedin.com/in/anngo1006/}{\underline{linkedin.com/in/anngo1006}}\quad\textbar\quad
+    \href{https://github.com/re-ans}{\underline{github.com/re-ans}} \\
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Texas at Austin}{May 2027}
+      {Bachelor of Science in Computer Science, Minor in Business \& Data Science}{GPA: 3.5}
+  \resumeSubHeadingListEnd
+
+
+% %------RELEVANT COURSEWORK-------
+% \section{Relevant Coursework}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{3}
+%             \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%                 \item\small Computer Architecture
+%                 \item Data Structures and Algorithm
+%                 \item Discrete Mathematics
+%                 \item Linear Algebra
+%                 \item Management Information System
+%                 \item Statistics and Data Science
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+%     %\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Dell Technologies}{May 2026 -- August 2026}
+      {Software Engineer Intern}{Austin, Texas}
+      \resumeItemListStart
+        \resumeItem{Architected a multi-agent diagnostic system using \textbf{LangGraph} and \textbf{LangChain}, coordinating 6 specialized agents via parallel \textbf{DAG workflows} to autonomously triage production issues, reducing manual effort by \textbf{40\% (15+ hours/week)}.}
+        \resumeItem{Engineered 5 domain-specific \textbf{RAG pipelines} with \textbf{ChromaDB} and \textbf{semantic embeddings}, integrating an \textbf{LLM-powered reranker} and intelligent document chunking to accelerate context-aware retrieval by \textbf{35\%}.}
+        \resumeItem{Built autonomous tool-calling loops via \textbf{OpenAI function-calling}, enabling LLMs to securely \textbf{SSH} into production VMs using \textbf{Paramiko} to execute diagnostic commands and parse 16 system log categories.}
+        \resumeItem{Developed a scalable full-stack interface using \textbf{React}, \textbf{Flask}, and \textbf{PostgreSQL}, implementing live terminal streaming to the browser via \textbf{WebSockets (Socket.IO)} and \textbf{xterm.js} to track real-time AI investigations.}
+        \resumeItem{Designed a robust data layer utilizing \textbf{SQLAlchemy ORM}, implementing \textbf{connection pooling}, state compaction, and \textbf{OIDC/JWT authentication} for secure, multi-user session management at scale.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {NextCreator}{May 2025 -- August 2025}
+      {Software Engineer Intern}{Austin, Texas}
+      \resumeItemListStart
+        \resumeItem{Engineered and developed a full-stack application using \textbf{Next.js, Tailwind CSS, and TypeScript} on the frontend and an \textbf{Express} backend, leading to a \textbf{30\%} improvement in page load times.}
+        \resumeItem{Integrated and configured essential third-party services including \textbf{Stripe} for secure payments and \textbf{Clerk} for robust user authentication, resulting in a streamlined user experience.}
+        \resumeItem{Collaborated effectively within an \textbf{Agile} team of 5 software engineers, designing UI/UX flows that led to a \textbf{20\%} increase in user retention over a three-month period.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {University of Texas at Austin - Robotics Lab}{January 2025 -- December 2025}
+      {Research Student - Autonomous Intelligence Robots}{Austin, Texas}
+      \resumeItemListStart
+        \resumeItem{Designed a \textbf{transformer-based predictive model} to estimate handover timing and 3D spatial location for human–robot object transfers, improving interaction smoothness and safety.}
+        \resumeItem{Built a multi-modal handover dataset using \textbf{Azure Kinect} depth sensing, \textbf{MediaPipe} Hands, \textbf{MANO}, and \textbf{SMPL} to capture fine-grained hand pose and full-body motion during human-to-human handovers.}
+        \resumeItem{Developed a camera-calibrated data pipeline with \textbf{AprilTags/AR} tags to generate ground-truth labels and support \textbf{model training and evaluation}.}
+    \resumeItemListEnd
+    
+      % \resumeItemListStart
+      %   \resumeItem {Delivered 200 hours of lessons, improving student test scores by \textbf{15-20\% within 3 months}}
+      %   \resumeItem{Designed adaptive teaching strategies tailored to \textbf{20+ students} and small groups, demonstrating analytical problem-solving and communication skills}
+      %   \resumeItem{\textbf{Trained and mentored} 5 new tutors on effective teaching strategies and ensuring consistent instructional quality}
+     % \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------INVOLVEMENT---------------
+\section{Organizations \& Extracurricular}
+    \resumeSubHeadingListStart
+    % \resumeSubheading{MyMosque}{May 2025 -- Present}{Tech Lead}{Austin, Texas}
+    %         \resumeItemListStart
+    %             \resumeItem{Leading a team of \textbf{5+ student developers} to build a mosque management platform with \textbf{mobile app (Expo/React Native)} and \textbf{admin web portal (Next.js/AWS Lambda)}, using \textbf{Supabase} for backend services while focusing on mentorship}
+    %             \resumeItem{Launched beta with \textbf{500+ weekly users}, implementing \textbf{CI/CD pipelines}, real-time analytics, push notifications, and multi-mosque support to ensure scalability and a production-ready experience}
+    %         \resumeItemListEnd
+        % \resumeSubheading{Freetail Hackers}{February 2026 -- Current}{Logistics Organizer}{Austin, Texas}
+        %     \resumeItemListStart
+        %         \resumeItem{Orchestrated event operations and venue logistics for \textbf{student hackathons}, ensuring a seamless experience for 1000 attendees.}
+        %         \resumeItem{Managed \textbf{catering coordination} and \textbf{vendor relations}, streamlining resource allocation and food distribution throughout the duration of the \textbf{multi-day events}.}
+        %     \resumeItemListEnd
+
+    
+        \resumeSubheading{PantryAI - Texas Luminescence}{August 2025 -- December 2025}{Full Stack Team Lead}{Austin, Texas}
+            \resumeItemListStart
+                \resumeItem{Led \textbf{full-stack development} of PantryAI using \textbf{Expo/React Native, Supabase, EC2, and Docker}, coordinating across frontend, backend, and cloud services to deliver a recipe discovery and inventory management platform.}
+                \resumeItem{Integrated \textbf{ML/AI capabilities} utilizing \textbf{vector embeddings, a RAG pipeline, and ChromaDB}, collaborating with ML teammates to ship \textbf{LLM-powered recipe generation} and inventory detection features.}
+            \resumeItemListEnd
+ 
+        \resumeSubheading{Longhorn Developers}{January 2025 -- May 2025}{Software Engineer}{Austin, Texas}
+            \resumeItemListStart
+                \resumeItem{Developed features for \textbf{UT Registration Plus} using \textbf{React and TypeScript}, shipping a \textbf{real-time visual indicator} for course availability across \textbf{5,000+ classes} for the extension's \textbf{60,000+ users}.}
+                \resumeItem{Automated the release workflow using \textbf{GitHub Actions CI/CD}, configuring build, test, and deploy pipelines on code merge to reduce deployment time and streamline the team's release cadence.}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    \vspace{-16pt}
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+          {\textbf{PintOS} $|$ \emph{C, x86 Assembly, GCC, GDB}}{}
+          \resumeItemListStart
+              \resumeItem{Architected a \textbf{Unix-like process and file system layer} using \textbf{ELF loading} with \textbf{x86 cdecl argument passing} and \textbf{multi-level indexed inodes}, supporting \textbf{18 system calls}, per-process file descriptor tables, dynamic file growth up to \textbf{8MB}, and \textbf{hierarchical subdirectories}.}
+            \resumeItem{Implemented \textbf{demand-paged virtual memory} using a \textbf{hash-based supplemental page table} and \textbf{bitmap-managed swap space}, enabling on-demand stack growth with \textbf{clock (second-chance) frame eviction} and \textbf{frame pinning} during I/O.}
+            \resumeItem{Built a \textbf{preemptive priority thread scheduler} with \textbf{nested priority donation} using sorted ready lists, chain priority inheritance, and a \textbf{semaphore-based alarm clock}, passing rigorous concurrency tests while eliminating busy-wait overhead.}
+          \resumeItemListEnd
+        \vspace{-13pt}
+        \resumeProjectHeading
+          {\textbf{Skill Stack} $|$ \emph{Next.js, React, Firebase, Tailwind CSS, MongoDB, Figma}}{}
+          \resumeItemListStart
+            \resumeItem{Built an \textbf{AI-powered educational assistant} using \textbf{Next.js, React, and Firebase}, dynamically adapting explanations to student responses and achieving a \textbf{30\% increase} in problem-solving accuracy during testing.}
+            \resumeItem{Designed a \textbf{user-friendly UI in Figma} and deployed the application with \textbf{React and Tailwind CSS}, integrating \textbf{MongoDB} to track and analyze user performance data across sessions.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{Languages:} Python, JavaScript/TypeScript, Java, C++, C\#, SQL/MySQL, HTML/CSS \\
+    \textbf{Frameworks \& Libraries:} React, Next.js, Flask, Spring Boot, Node.js, PyTorch, NumPy, TailwindCSS, LangChain, LangGraph, SQLAlchemy, Socket.IO, Paramiko \\
+    \textbf{Tools \& Platforms:} Git, GitHub, Docker, GCP, AWS, Jira, Confluence, Nginx, ChromaDB,  Figma \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%
+
+\end{document}
